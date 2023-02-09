@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 150px;
+    background-color: rgba(192, 192, 255, 0.848);
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+form{
+    padding-inline: 150px;
+}
+
+h1{
+    text-align: center;
+}
+
+@media (max-width: 600px){
+
+    body{
+        padding-top: 30px;
+    }
+    form{
+        padding-inline: 10px;
+        
+    }
+}
